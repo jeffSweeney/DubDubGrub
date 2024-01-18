@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct DDGTabView: View {
+    init() { UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance() }
+    
     var body: some View {
         TabView {
             LocationMapView()
