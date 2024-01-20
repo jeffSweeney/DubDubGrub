@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E061D86C2B5C457C002B2BB6 /* GrubSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E061D86B2B5C457C002B2BB6 /* GrubSpotView.swift */; };
 		E08682B52B4E267F00FA3C39 /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08682B42B4E267F00FA3C39 /* DubDubGrubApp.swift */; };
 		E08682B92B4E268000FA3C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08682B82B4E268000FA3C39 /* Assets.xcassets */; };
 		E08682BC2B4E268000FA3C39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08682BB2B4E268000FA3C39 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E061D86B2B5C457C002B2BB6 /* GrubSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrubSpotView.swift; sourceTree = "<group>"; };
 		E08682B12B4E267F00FA3C39 /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08682B42B4E267F00FA3C39 /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
 		E08682B82B4E268000FA3C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E08682C72B4E2B8200FA3C39 /* LocationMapView.swift */,
 				E08682C92B4E2BAF00FA3C39 /* LocationListView.swift */,
 				E08682CB2B4E2BD100FA3C39 /* ProfileView.swift */,
+				E061D86B2B5C457C002B2BB6 /* GrubSpotView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				E08682CA2B4E2BAF00FA3C39 /* LocationListView.swift in Sources */,
 				E08682C82B4E2B8200FA3C39 /* LocationMapView.swift in Sources */,
 				E08682CC2B4E2BD100FA3C39 /* ProfileView.swift in Sources */,
+				E061D86C2B5C457C002B2BB6 /* GrubSpotView.swift in Sources */,
 				E08682B52B4E267F00FA3C39 /* DubDubGrubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
