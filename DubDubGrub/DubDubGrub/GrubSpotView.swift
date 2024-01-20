@@ -60,6 +60,7 @@ extension GrubSpotView {
                     .fontWeight(.bold)
                     .frame(width: 35, height: 35)
                     .background(Color.brandPrimary)
+                    .foregroundStyle(.white)
                     .clipShape(Circle())
             }
         }
