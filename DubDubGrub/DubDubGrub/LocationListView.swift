@@ -19,7 +19,7 @@ struct LocationListView: View {
                             Divider()
                             
                             HStack {
-                                GrubSpotView(headcount: Int.random(in: 0 ... 10))
+                                GrubSpotRowView(headcount: Int.random(in: 0 ... 10))
                                     .foregroundStyle(Color.primary)
                                 
                                 Image(systemName: "chevron.right")

@@ -1,5 +1,5 @@
 //
-//  GrubSpotView.swift
+//  GrubSpotRowView.swift
 //  DubDubGrub
 //
 //  Created by Jeffrey Sweeney on 1/20/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GrubSpotView: View {
+struct GrubSpotRowView: View {
     @State var headcount: Int // TODO: Dummy data - will replace
     
     var body: some View {
@@ -44,7 +44,7 @@ struct GrubSpotView: View {
     }
 }
 
-extension GrubSpotView {
+extension GrubSpotRowView {
     private var spotPeopleView: some View {
         return HStack(spacing: 12) {
             ForEach(1 ... min(4, headcount), id: \.self) { _ in
@@ -68,7 +68,7 @@ extension GrubSpotView {
 }
 
 #Preview {
-    GrubSpotView(headcount: Int.random(in: 0 ... 10))
+    GrubSpotRowView(headcount: Int.random(in: 0 ... 10))
         .preferredColorScheme(.dark)
 }
 
