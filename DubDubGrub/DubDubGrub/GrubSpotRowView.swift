@@ -48,12 +48,12 @@ extension GrubSpotRowView {
     private var spotPeopleView: some View {
         return HStack(spacing: 12) {
             ForEach(1 ... min(4, headcount), id: \.self) { _ in
-                AvatarView()
+                AvatarView(avatarSize: .medium)
             }
             
             let remaining = headcount - 4
             if remaining == 1 {
-                AvatarView()
+                AvatarView(avatarSize: .medium)
             } else if remaining > 0 {
                 Text("+\(remaining)")
                     .font(.footnote)
@@ -73,11 +73,25 @@ extension GrubSpotRowView {
 }
 
 struct AvatarView: View {
+    let avatarSize: AvatarSize
+    
     var body: some View {
         Image("default-avatar") // TODO: Dummy data - will replace
             .resizable()
             .scaledToFit()
-            .frame(width: 35, height: 35)
+            .frame(width: avatarSize.dimension, height: avatarSize.dimension)
             .clipShape(Circle())
+    }
+    
+    enum AvatarSize {
+        case medium
+        case large
+        
+        var dimension: CGFloat {
+            switch self {
+            case .medium: 35
+            case .large: 45
+            }
+        }
     }
 }

@@ -15,6 +15,7 @@
 		E08682C82B4E2B8200FA3C39 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08682C72B4E2B8200FA3C39 /* LocationMapView.swift */; };
 		E08682CA2B4E2BAF00FA3C39 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08682C92B4E2BAF00FA3C39 /* LocationListView.swift */; };
 		E08682CC2B4E2BD100FA3C39 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08682CB2B4E2BD100FA3C39 /* ProfileView.swift */; };
+		E086F2752B5D58B2002C64C9 /* GrubSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E086F2742B5D58B2002C64C9 /* GrubSpotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E08682C72B4E2B8200FA3C39 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 		E08682C92B4E2BAF00FA3C39 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		E08682CB2B4E2BD100FA3C39 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E086F2742B5D58B2002C64C9 /* GrubSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrubSpotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E08682C92B4E2BAF00FA3C39 /* LocationListView.swift */,
 				E08682CB2B4E2BD100FA3C39 /* ProfileView.swift */,
 				E061D86B2B5C457C002B2BB6 /* GrubSpotRowView.swift */,
+				E086F2742B5D58B2002C64C9 /* GrubSpotView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E086F2752B5D58B2002C64C9 /* GrubSpotView.swift in Sources */,
 				E08682C62B4E2B5700FA3C39 /* DDGTabView.swift in Sources */,
 				E08682CA2B4E2BAF00FA3C39 /* LocationListView.swift in Sources */,
 				E08682C82B4E2B8200FA3C39 /* LocationMapView.swift in Sources */,

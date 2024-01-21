@@ -13,7 +13,7 @@ struct LocationListView: View {
             ScrollView {
                 ForEach(0...10, id: \.self) { _ in
                     NavigationLink {
-                        Text("Under Construction")
+                        GrubSpotView()
                     } label: {
                         VStack {
                             Divider()
